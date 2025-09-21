@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            background-color: red;
+            display: none;
+        }
+        #div2{
+            background-color: green;
+            display: none;
+        }
+        #div3{
+            background-color: blue;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="f1()"></button>
+    <button onclick="f2()"></button>
+    <button onclick="f3()"></button>
+<div id="div1">
+1
+</div>
+<div id="div2">
+2
+</div>
+<div id="div3">
+3
+</div>
+    <script>
+        function f1(){
+      let div1 = document.getElementById("div1").style = "display: block"
+      let div2 = document.getElementById("div2").style = "display: none" 
+      let div3 = document.getElementById("div3").style = "display: none" 
+        }
+        function f2(){
+      let div1 = document.getElementById("div1").style = "display: none"
+      let div2 = document.getElementById("div2").style = "display: block" 
+      let div3 = document.getElementById("div3").style = "display: none" 
+            
+        }
+        function f3(){
+      let div1 = document.getElementById("div1").style = "display: none"
+      let div2 = document.getElementById("div2").style = "display: none" 
+      let div3 = document.getElementById("div3").style = "display: block" 
+            
+        }
+        
+        
+
+
+
+
+    </script>
+</body>
+</html>
